@@ -1,0 +1,135 @@
+    .body {
+      line-height: 1.6;
+    }
+    
+    .nav-banner.scrolled {
+      border-bottom: 2px solid #e7943a;
+      background-color: #265bff;
+      transition: border-bottom 200ms linear;
+    }
+
+    .nav-banner.scrolled-top {
+      border-bottom: 2px solid #265bff;
+      transition: border-bottom 200ms linear;
+    }
+
+    .b-logo-banner {
+      height: 40px;
+      padding-top: 3px;
+    }
+
+    .b-logo {
+      width: 300px;
+    }
+
+    input {
+      border: solid 2px white;
+      background-color: #265bff;
+      color: white;
+      padding: 7px;
+    }
+
+    ::placeholder {
+      color: white;
+      opacity: 0.8;
+    }
+
+    #name, #email {
+      width: 181px;
+    }
+
+    #signup {
+      background-color: #265bff;
+      color: white;
+      transition: 0.3s;
+      width: 78px;
+    }
+
+    #signup:hover {
+      background-color: #e7943a;
+      color: white;
+      border: solid 2px #e7943a;
+    }
+
+    #home {
+      background-color: #265bff;
+      color: white;
+      transition: 0.3s;
+      border: solid white 2px;
+    }
+
+    #home:hover {
+      background-color: #e7943a;
+      color: white;
+      border: solid 2px #e7943a;
+    }
+
+    .form-rsp input {
+      margin-top: 1rem;
+    }
+
+    /* The snackbar - position it at the bottom and in the middle of the screen */
+#err {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    border-radius: 10px; /* Rounded borders */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    padding: 16px; /* Padding */
+    /* position: fixed; Sit on top of the screen */
+  }
+  
+  /* Show the snackbar when clicking on a button (class added with JavaScript) */
+  #err.show {
+    visibility: visible; /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  /* Animations to fade the snackbar in and out */
+  @-webkit-keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {opacity: 1;}
+    to {opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {opacity: 1;}
+    to {opacity: 0;}
+  }
+
+
+
+    @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+    }
+
+@media (max-width: 1018px) {
+  .nav-container {
+    display: none;
+  }
+}
+
+@media (min-width: 985px) {
+  .form-rsp {
+    display: none;
+  }
+}
