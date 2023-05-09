@@ -4,7 +4,7 @@ var postmark = require('postmark');
 const Subscriber = require('../models/subscriberModel');
 // @desc   Add Subscriber
 // @route  POST /api/subscribers
-// @access Private
+// @access Public
 const addSubscriber = asyncHandler(async (req, res) => {
   const { name, email } = req.body;
   console.log(req.body);
