@@ -24,6 +24,8 @@ npm run server
 
 ### Env Variables
 
+Create a .env file in the root directory and add the variables:
+
 ```
 NODE_ENV = development
 PORT = 3000
