@@ -11,6 +11,8 @@ A landing page to sign up subscribers to a mailing list (MongoDB) and send a tra
 - Express
 - Mongoose
 - MongoDB
+- Node.js
+- Postmark
 
 ## Usage
 
