@@ -38,3 +38,7 @@ POSTMARK_KEY = Your Postmark API key
 ## Additional Resources
 
 [Postmark Developer Guide](https://postmarkapp.com/developer)
+
+#### Need to Manage Subscribers and Send Broadcast Emails? Check out:
+
+[A Local Interface to Manage Your Subscriptions and Send Emails with Postmark and Node.js](https://github.com/LaSav/postmark-interface)
