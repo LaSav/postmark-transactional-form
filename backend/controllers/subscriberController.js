@@ -28,12 +28,13 @@ const addSubscriber = asyncHandler(async (req, res) => {
 
   var client = new postmark.ServerClient(process.env.POSTMARK_KEY);
 
-  client.sendEmail({
+  client.sendEmailWithTemplate({
     From: 'service@boundnetwork.com',
     To: email,
-    Subject: 'Welcome to the Bound Network',
-    HtmlBody: `<strong>Hello</strong> dear ${name}.`,
-    TextBody: 'Hello from Postmark!',
+    TemplateId: 31737915,
+    TemplateModel: {
+      name: name,
+    },
     MessageStream: 'welcome-message',
   });
   res.redirect('/success');

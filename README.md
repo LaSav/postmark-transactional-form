@@ -21,7 +21,7 @@ A landing page to sign up subscribers to a mailing list (MongoDB) and send a tra
 ```
 git clone https://github.com/LaSav/postmark-transactional-form
 npm install
-npm run server
+npm run dev
 ```
 
 ### Env Variables
