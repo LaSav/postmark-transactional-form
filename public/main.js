@@ -7,7 +7,7 @@ function addSubscriber(e) {
 
   console.log(name, email);
   axios
-    .post('http://localhost:3000/api/subscribe', {
+    .post('https://bound-signup-form.onrender.com/api/subscribe', {
       name: name,
       email: email,
     })
