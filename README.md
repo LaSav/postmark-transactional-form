@@ -2,7 +2,7 @@
 
 A landing page to sign up subscribers to a mailing list (MongoDB) and send a transactional confirmation email using the Postmark API.
 
-[Site] (https://www.boundnetwork.com/)
+[Site](https://www.boundnetwork.com/)
 
 ## Built with
 
