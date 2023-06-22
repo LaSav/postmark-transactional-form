@@ -28,26 +28,6 @@ function addSubscriber(e) {
     });
 }
 
-// function showError(err) {
-//   var x = document.getElementById('err');
-
-//   // Add the "show" class to DIV
-//   x.className = 'show';
-
-//   // After 3 seconds, remove the show class from DIV
-//   setTimeout(function () {
-//     x.className = x.className.replace('show', '');
-//   }, 3000);
-
-//   document.getElementById('err').innerHTML = `
-//       <div class="mx-auto col-4 mb-4 p-3" style="background-color: #ff6888;">
-//         <p class="pt-2">${err.response.data.message}</p>
-//       </div>
-//     `;
-// }
-
-// form.addEventListener('submit', addSubscriber);
-
 AOS.init({
   duration: 1200,
 });

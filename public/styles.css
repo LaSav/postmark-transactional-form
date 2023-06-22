@@ -67,25 +67,6 @@
     .form-rsp input {
       margin-top: 1rem;
     }
-
-    /* The snackbar - position it at the bottom and in the middle of the screen */
-#err {
-    visibility: hidden; /* Hidden by default. Visible on click */
-    border-radius: 10px; /* Rounded borders */
-    color: #fff; /* White text color */
-    text-align: center; /* Centered text */
-    padding: 16px; /* Padding */
-    /* position: fixed; Sit on top of the screen */
-  }
-  
-  /* Show the snackbar when clicking on a button (class added with JavaScript) */
-  #err.show {
-    visibility: visible; /* Show the snackbar */
-    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
-    However, delay the fade out process for 2.5 seconds */
-    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-    animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  }
   
   /* Animations to fade the snackbar in and out */
   @-webkit-keyframes fadein {
